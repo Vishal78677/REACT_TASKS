@@ -1,0 +1,115 @@
+
+.mainCon  .headerContainer{
+    /* background-color: rgb(232, 106, 106); */
+    background-color: rgb(76 8 141);
+    color: white;
+}
+
+
+.mainCon  .headerContainer .headerBtnWrapper{
+ display: flex;
+ gap: 10px;
+}
+.mainCon  .headerContainer .headerBtnWrapper .addWithIcon{
+
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+}
+
+
+
+.formCon{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+
+
+.addIcon{
+    font-size: 13px;
+}
+
+
+
+.actionsBtn{
+    border: none;
+    background: none;
+}
+
+.mainCon .userContainer{
+    margin-top: 18px;
+    /* border: 1px solid black; */
+}
+
+.noUsers{
+    margin-top: 15px;
+    color: black;
+    font-weight: 500;
+}
+
+.inputDate{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    /* border: 1px solid black; */
+    width: 40%;
+}
+
+.inputDate input{
+    /* border: 1px solid rgb(121, 121, 121); */
+    border: 1px solid silver;
+ border-radius: 5px;
+ padding: 2px 3px;
+}
+
+
+.errorMsg{
+    color: red;
+}
+
+
+.selectWrapper{
+    display: flex;
+    gap: 7px;
+}
+
+
+.required::after{
+    content:"*";
+  color:red;
+}
+
+
+
+input.form-check-input{
+  
+    border: 1px solid #b4bdc5;
+
+}
+
+
+.statusBtn{
+    display: flex;
+    justify-content: center;
+    width: 66px;
+    /* border: 1px solid black; */
+    color: white;
+    font-size: 14px;
+    padding: 2px 0px;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+
+
+.statusActive{
+    background-color: #098354;
+}
+
+.statusInactive{
+    background-color: crimson;
+}

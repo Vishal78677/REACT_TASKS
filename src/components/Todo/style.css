@@ -1,0 +1,89 @@
+.todoCon .mainCon{
+ 
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.todoCon .mainCon .backHome{
+ 
+  padding: 5px 6px;
+  background-color: rgb(233, 18, 126);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;   
+}
+
+
+.todoCon .mainCon .todoHeading{
+ 
+      margin-top: 20px;
+}
+
+.todoCon .mainCon .formCon{
+ 
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ 
+}
+.todoCon .mainCon .formCon .inputBtnWrapper{
+ 
+ display: flex;
+ gap: 10px;
+ 
+}
+
+.todoCon .mainCon .formCon .inputBtnWrapper .input{
+
+    padding: 4px 4px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid silver;
+}
+.todoCon .mainCon .formCon .inputBtnWrapper .btnAdd{
+
+    padding: 4px 4px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid silver;
+    color: white;
+    background-color: black;
+}
+.todoCon .mainCon .todosContainer{
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.todoCon .mainCon .todosContainer .todoWrapper{
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 7px;
+  align-items: center;
+  width: 350px;
+}
+.todoCon .mainCon .todosContainer .todoWrapper .btnWrapper{
+  /* border: 1px solid black; */
+  display: flex;
+  gap: 5px;
+}
+.todoCon .mainCon .todosContainer .todoWrapper .btnWrapper .btn{
+  padding: 2px 5px;
+  cursor: pointer;
+  border: none;
+}
+.todoCon .mainCon .todosContainer .todoWrapper .btnWrapper .edit{
+   background-color: rgb(2, 138, 236);
+   color: white;
+}
+
+.todoCon .mainCon .todosContainer .todoWrapper .btnWrapper .delete{
+   background-color: rgb(236, 2, 2);
+   color: white;
+}

@@ -1,0 +1,16 @@
+
+
+.appContainer header{
+    /* border: 1px solid white; */
+    padding: 7px 5px;
+
+}
+.appContainer header .backToHome{
+    
+    padding: 5px 5px;
+    background-color: rgb(227, 22, 193);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

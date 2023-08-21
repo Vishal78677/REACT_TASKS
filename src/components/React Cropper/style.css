@@ -1,0 +1,48 @@
+.mainCon .cropperCon{
+    /* border: 1px solid black; */
+    margin-top: 15px;
+}
+
+
+.mainCon .cropperCon .imgWrapper .profileImg{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+}
+.mainCon .cropperCon .imgWrapper .imgWrapperBtn{
+    /* height: 170px;
+    width: 170px; */
+    border: none;
+    cursor: default;
+    border-radius: 50%;
+}
+
+.mainCon .cropperCon .imgWrapper .iconWrapper {
+
+    border-radius: 50%;
+    padding: 5px 5px;
+    transform: translate(-117%,357%)!important;
+    cursor: pointer;
+}
+
+.mainCon .cropperCon .imgWrapper .iconWrapper .cameraIcon{
+   height: 25px;
+   width: 25px;
+}
+
+
+
+
+.shapRadioBtns{
+    display: flex;
+    /* border: 1px solid black; */
+    padding: 11px 15px;
+    gap: 22px;
+}
+.shapRadioBtns .radioBtnWrapper{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+   
+   
+}

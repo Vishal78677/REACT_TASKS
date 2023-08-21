@@ -1,0 +1,24 @@
+.homeContainer{
+ 
+  background-color: black;
+  height: 100vh;
+
+}
+
+
+.mainCon .projectWrapper{
+    padding: 15px 2px;
+    display: flex;
+    gap: 10px;
+}
+
+.mainCon .projectWrapper .btnn{
+   background-color: aqua;
+   color: crimson;
+   font-weight: 500;
+   padding: 7px 5px;
+   border: none;
+   cursor: pointer;
+   border-radius: 2px;
+   
+}

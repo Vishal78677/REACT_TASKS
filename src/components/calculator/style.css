@@ -1,0 +1,169 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+
+.mainCon{
+
+    /* border: 1px solid rgb(244, 12, 12); */
+
+}
+.mainCon .calContainer{
+   display: flex;
+   justify-content: center;
+   margin: 3rem 0rem;
+   /* border: 1px solid rgb(32, 16, 16);  */
+
+}
+
+
+.mainCon .calContainer .calWrapper{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   width: 300px;
+   border-radius: 5px;
+   /* background-color: turquoise; */
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   /* border: 1px solid rgb(32, 16, 16);  */
+   border: none;
+   padding: 15px 10px;
+
+   /* background: #005C97; 
+   background: -webkit-linear-gradient(to right, #363795, #005C97); 
+   background: linear-gradient(to right, #363795, #005C97);  */
+
+   background: #136a8a;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to left, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to left, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+   
+
+}
+
+.mainCon .calContainer .calWrapper .inputWrapper{
+   display: flex;
+   flex-direction: column;
+   gap: 4px;
+   
+
+}
+.mainCon .calContainer .calWrapper .inputWrapper .errorMsg{
+
+color: rgb(80 229 255);  
+letter-spacing: 1px; 
+
+}
+.mainCon .calContainer .calWrapper .inputWrapper input{
+    padding: 4px 5px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+.mainCon .calContainer .calWrapper .selectWrapper{
+ /* border: 1px solid black; */
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ gap: 10px;
+}
+
+.mainCon .calContainer .calWrapper .selectWrapper .historyBtn{
+ 
+  margin-bottom: 10px;
+  cursor: pointer;
+  background-color:rgb(240, 53, 28) ;
+  text-transform:capitalize;
+  /* font-size: 12px; */
+  color: white;
+  padding: 2px 2px;
+}
+
+.mainCon .calContainer .calWrapper .selectWrapper .historyBtn:hover{
+
+  background-color:rgb(198, 35, 14) ;
+  transition: 0.2s ease;
+}
+
+.mainCon .calContainer .calWrapper .selectWrapper .selectAndErrorWrapper{
+ /* border: 1px solid black; */
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+
+
+.mainCon .calContainer .calWrapper .selectWrapper .select{
+  width: 100px;
+  outline: none;
+  padding: 2px 2px;
+  border: none;
+  border-radius: 5px;
+}
+
+
+.mainCon .calContainer .calWrapper .btn{    
+  padding: 5px 0px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.mainCon .calContainer .calWrapper .historyData{    
+  display: flex;
+  flex-direction: column;
+  overflow:auto ;
+  
+   gap: 5px;
+    /* border: 1px solid black; */
+    height: 78px;
+  color: rgb(239 255 121);
+    
+}
+.mainCon .calContainer .calWrapper .historyData .historyHeading{    
+   
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  gap: 5px;
+    
+}
+.mainCon .calContainer .calWrapper .historyData .historyHeading span{    
+ color: rgb(221, 227, 227);  
+ font-size: 17px;
+    
+}
+
+
+.mainCon .calContainer .calWrapper .submitBtn{     
+    background-color: black;
+    color: white;
+}
+
+.mainCon .calContainer .calWrapper .submitBtn:hover{     
+    background-color: rgb(18, 18, 18);
+  
+}
+
+
+.mainCon .calContainer .calWrapper .clearBtn{    
+   
+    background-color: rgb(228, 47, 47);
+    color: rgb(254, 247, 247);
+   
+
+}
+.mainCon .calContainer .calWrapper .clearBtn:hover{    
+  background-color: rgb(184, 20, 20);
+
+}

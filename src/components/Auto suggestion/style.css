@@ -1,0 +1,66 @@
+.mainCon .inputContainer{
+
+    margin-top: 1rem;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 2px;
+
+}
+.mainCon .inputContainer .dropdownMenu{
+    width: 234px;
+    position: absolute;
+    display: flex;
+    /* border: 1px solid silver; */
+    align-items: center;
+    top: 43px;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    gap: 4px;
+    border-radius: 5px;
+
+}
+.mainCon .inputContainer .dropdownMenu .dropSpan{
+
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid black; */
+    padding: 2px;
+    padding-bottom: 3px;
+
+}
+.mainCon .inputContainer .dropdownMenu .dropSpan:hover{
+
+background-color: rgb(39, 197, 144);
+cursor: pointer;
+}
+
+.mainCon .inputContainer .inputWrapper{
+ 
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 5px;
+
+}
+.mainCon .inputContainer .inputWrapper .inputBtnWrapper{
+ 
+    display: flex;
+    gap: 7px;
+
+}
+
+
+.mainCon .inputContainer .inputWrapper .mainInput{
+ 
+ padding: 1px 5px;
+ padding-left: 10px;
+ border-radius: 6px;
+ width: 236px;
+ outline: none;
+ border: 1px solid silver;
+}
